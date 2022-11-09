@@ -24,6 +24,7 @@ const NewUser = ({ isAddUser, setIsAddUser }) => {
     setTimeout(() => {
       setIsAddUser(false);
       setUserData(intialData);
+      window.scrollTo(0, 0);
     }, 500);
 
     setTimeout(() => {
